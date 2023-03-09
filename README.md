@@ -1,2 +1,2 @@
-# Photo_galery
+# photo_gallery_p5
  Project 5
