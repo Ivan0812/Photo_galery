@@ -41,9 +41,9 @@ img {
  }
 
 .gallery {
-    width: 100%;
+    max-width: 800px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(90px, 190px));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 190px));
     justify-content: center;
     gap: 10px;
 }
@@ -52,16 +52,6 @@ a {
     display: flex;
    justify-content: space-evenly;
    margin-bottom: 1.5em;
-}
-
-@media screen and (min-width: 1253px) {
-    .gallery {
-        width: 80%;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(90px, 190px));
-        justify-content: center;
-        gap: 10px;
-    }
 }
 
 
